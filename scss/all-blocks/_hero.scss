@@ -60,6 +60,7 @@
   color: #4EAAFF;
   background-color: #4EAAFF;
   border-radius: 50%;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .hero__table td:hover {
@@ -68,12 +69,13 @@
   box-shadow: 0 0 5px 1px #ffffff;
   color: #ffffff;
   cursor: pointer;
+
 }
 
 .hero__table td~.td-green {
   background-color: #65D057;
   color: #65D057;
-
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .hero__table td~.td-green:hover {

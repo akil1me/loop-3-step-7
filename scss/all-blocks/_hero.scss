@@ -79,6 +79,8 @@
 }
 
 .hero__table td~.td-green:hover {
+  outline: 1px solid #65D057;
+  outline-offset: 6px;
   color: #ffffff;
   outline-offset: 6px;
   box-shadow: 0 0 5px 1px white;
